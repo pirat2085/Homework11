@@ -20,8 +20,14 @@ function plusone1() {
     numplus++;
 }
 
-var initialnumber = prompt("please write initital number")
+var first = prompt("please write initital number");
+
+if (isNaN(first)) {
+    initialnumber = 1;
+} else
+    initialnumber=first;
 function plusone2() {
-    alert(initialnumber)
+
+    alert(initialnumber);
     initialnumber++;
 }
