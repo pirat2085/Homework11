@@ -3,9 +3,12 @@ function compares() {
     var b=document.getElementById("num2").value;
     if (a<b) {
         alert('a<b');
+    } else if (a>b) {
+        alert('a>b');
     } else if (a===b) {
-        alert('a===b');
-    } else alert('a>b');
+        alert('a===b')
+    } else
+        alert('WARNING');
 }
 
 function readstring() {
