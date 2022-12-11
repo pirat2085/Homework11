@@ -15,7 +15,13 @@ function readstring() {
     }
 }
 var numplus='1';
-function plusone() {
+function plusone1() {
     alert(numplus)
     numplus++;
+}
+
+var initialnumber = prompt("please write initital number")
+function plusone2() {
+    alert(initialnumber)
+    initialnumber++;
 }
